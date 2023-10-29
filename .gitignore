@@ -1,7 +1,27 @@
-sms/
-__pycache__/
+# Flask
 *.pyc
 *.pyo
 *.egg-info/
-dist/
-build/
+db.sqlite3
+instance/
+webapp.log
+sms/
+
+# React / Node.js
+/node_modules
+/.pnp
+.pnp.js
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+npm-debug.log*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.log
+.DS_Store
